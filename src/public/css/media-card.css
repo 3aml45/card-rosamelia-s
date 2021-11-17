@@ -1,0 +1,32 @@
+
+@media (min-height: 641px) {
+    
+    .card {
+        margin-top: 50px;
+    }
+
+    .card::before {
+        top: -13%;
+        width: 158px;
+        height: 158px;    
+    }
+    
+    .btns-container li {
+        /* background-color: var(--morado-o); */
+        margin-bottom: 30px;
+        /* padding: 10px; */
+    }
+
+    .card .logo {
+        top: -11%;
+    }
+
+    .logo .img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .slogan p {
+        font-size: 12px;
+    }
+}

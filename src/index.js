@@ -22,10 +22,10 @@ app.use(indexRoute);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // listen the server
-let port = process.env.PORT;
-if (port == null || port == "") {
-    port = 8000;
-}
+let port = process.env.PORT || 8000;
+// if (port == null || port == "") {
+//     port = 8000;
+// }
 
 function messagePort () {
     console.log(`app running on port ${port}`)
